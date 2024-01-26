@@ -18,12 +18,6 @@ client = ComputerVisionClient(
     credentials=credentials
 )
 
-
-# uri = "https://github.com/Azure-Samples/cognitive-services-python-sdk-samples/raw/master/samples/vision/images/make_things_happen.jpg"
-# raw = True
-# numberOfCharsInOperationId = 36
-
-
 # credentials = CognitiveServicesCredentials(key)
 
 # client = ComputerVisionClient(
