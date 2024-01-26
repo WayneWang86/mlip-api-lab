@@ -18,6 +18,8 @@ def analysis():
     except:
         return jsonify({'error': 'Missing URI in JSON'}), 400
     
+    print(image_uri)
+    
     # Try to get the text from the image
     try:
         res = read_image(image_uri)
