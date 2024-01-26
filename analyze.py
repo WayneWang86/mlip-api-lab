@@ -3,11 +3,6 @@ from msrest.authentication import CognitiveServicesCredentials
 from azure.cognitiveservices.vision.computervision.models import OperationStatusCodes
 import time
 
-# # endpoint = "ENTER ENDPOINT HERE"
-# endpoint = "https://apilab.cognitiveservices.azure.com/"
-# # key = "ENTER KEY HERE"
-# key = "08b88d52375440d0a89c6dcb1602c11f"
-
 import os
 region = os.environ['ACCOUNT_REGION']
 key = os.environ['ACCOUNT_KEY']
